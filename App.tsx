@@ -36,7 +36,7 @@ type SectionProps = PropsWithChildren<{
 
 import {Camera, CameraType} from 'react-native-camera-kit';
 const defaultPath =
-  'https://nggd.ir/extra/freesom_family_anniversary_final_attendees.json';
+  'https://cdn.statically.io/gh/mojtabaasadi/evand-ticket-gate/master/sampleData.json';
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   const {height} = useWindowDimensions();
